@@ -1,0 +1,28 @@
+{
+  "name": "react-browserify-gulp",
+  "version": "1.0.0",
+  "description": "verktøystack test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "browserify",
+    "gulp"
+  ],
+  "author": "Johnny Horvi",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^7.0.3",
+    "gulp": "^3.8.10",
+    "gulp-size": "^1.1.0",
+    "gulp-uglify": "^1.0.2",
+    "react": "^0.12.2",
+    "reactify": "^0.17.1",
+    "uglify": "^0.1.1",
+    "vinyl": "^0.4.6",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
