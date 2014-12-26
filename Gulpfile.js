@@ -13,13 +13,13 @@ gulp.task('js', function() {
     .bundle()
     .pipe(source('myapp.js'))
     .pipe(buffer())
-    .pipe(uglify())
+//    .pipe(uglify())
     .pipe(size())
     .pipe(gulp.dest('./public/build/'));
 })
 
 gulp.task('watch', function(){
-    gulp.watch('./public/src/js/', ['js']);
+    gulp.watch('./public/src/js/**/*.jsx', ['js']);
 });
 
 gulp.task('default', ['watch', 'js']);
